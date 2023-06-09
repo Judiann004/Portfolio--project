@@ -6,6 +6,7 @@
     --general-color: black;
     --text-color: #272142;
     --btn-bg: #6c63ff;
+    --secondary-color: #f9f7fe;
 }
 
 body {
@@ -59,6 +60,10 @@ h5 {
   .project-desciption {
     padding: 120px 60px;
   }
+
+h4 {
+  font-size: 48px;
+}
 
   .content-container {
     padding: 160px 20px;
@@ -120,6 +125,47 @@ h5 {
   nav a:hover, nav li.active a {
     color: var(--btn-bg);
   }
+
+  footer {
+    margin: 60px 0;
+  }
+
+  footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+  }
+   
+  footer .contact-box p {
+    margin: 0;
+  }
+
+  footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+
+  .email-link:hover {
+    color: var(--btn-bg);
+  }
+
+
+
+  footer .social-links a {
+   margin: 0 20px;
+   color: var(--btn-bg);
+   background: var(--secondary-color);
+   padding: 10px 14px;
+   border-radius: 50%;
+   font-size: 18px;
+   transition: all 150ms ease-in-out;
+  }
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--btn-bg);
+}
   
   @media (max-width: 900px) {
     h1 {
