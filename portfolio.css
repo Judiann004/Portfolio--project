@@ -46,3 +46,106 @@ h5 {
   background: var(--btn-bg);
   border-radius: 4px;
 }
+
+.btn-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--btn-bg);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+  .project-desciption {
+    padding: 120px 60px;
+  }
+
+  .content-container {
+    padding: 160px 20px;
+  }
+  
+  .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  
+  .content-container h2 {
+    font-size: 18px;
+    font-family: var(--subheading-font-family);
+  }
+
+  .content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 20px 0 0;
+    font-family: var(--subheading-font-family);
+  }
+
+  .content p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    margin: 30px;
+  }
+
+  .logo {
+    max-height: 40px;
+  }
+
+  nav {
+    padding: 20px;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+  }
+
+  nav a:hover, nav li.active a {
+    color: var(--btn-bg);
+  }
+  
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    .hero {
+      padding: 80px 20px;
+    }
+    
+    .content-container {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+
+    nav a {
+      font-size: 12px;
+    }
+  }
